@@ -1,7 +1,7 @@
 package com.zaycode.mvvm.di
 
 import com.zaycode.mvvm.data.UseCase
-import com.zaycode.mvvm.ViewModel
+import com.zaycode.mvvm.MVVMViewModel
 import com.zaycode.mvvm.data.cache.CacheRemoteDataSource
 import com.zaycode.mvvm.data.cache.CacheRemoteDataSourceImpl
 import com.zaycode.mvvm.data.remote.Remote
@@ -15,7 +15,7 @@ import org.koin.dsl.module
 
 
 val viewModelModule = module {
-    viewModel { ViewModel(get()) }
+    viewModel { MVVMViewModel(get()) }
 }
 
 

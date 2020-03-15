@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MVVM</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_transaction">Transaction</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_profile">Profile</string>
 </resources>
